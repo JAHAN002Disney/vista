@@ -66,25 +66,26 @@ has_toc: false
 | Micro Card                 |   🚧   |   🔜    |  ➖  |   ➖    |  ➖  |
 | Small Card                 |   🚧   |   🔜    |  ➖  |   ➖    |  ➖  |
 
-[Button]: /docs/components/atoms/button.html
-[Text]: /docs/components/atoms/text.html
-[Divider]: /docs/components/atoms/divider.html
-[Surface]: /docs/components/atoms/surface.html
-[Icon Button]: /docs/components/atoms/icon-button.html
-[Icon With Background]: /docs/components/atoms/icon-with-background.html
-[Text Link]: /docs/components/atoms/text-link.html
-[Chip]: /docs/components/atoms/chip.html
-[Checkbox]: /docs/components/atoms/checkbox.html
-[Drawer]: /docs/components/atoms/drawer.html
-[Dropdown]: /docs/components/atoms/dropdown.html
-[Radio Button]: /docs/components/atoms/radio-button.html
-[Stepper]: /docs/components/atoms/stepper.html
-[Text Field]: /docs/components/atoms/text-field.html
-[Toggle]: /docs/components/atoms/toggle.html
-[Image]: /docs/components/atoms/image.html
-[Lottie]: /docs/components/atoms/lottie.html
-[Modal]: /docs/components/atoms/modal.html
-[Avatar]: /docs/components/atoms/avatar.html
-[Tile Button]: /docs/components/atoms/tile-button.html
-[Loading Spinner]: /docs/components/atoms/loading-spinner.html
-[Icon]: /docs/components/atoms/icon.html
+{% assign atom_path = 'docs/components/atoms/' %}
+[Button]: {% link {{ atom_path }}button.md %}
+[Text]: {% link {{ atom_path }}text.md %}
+[Divider]: {% link {{ atom_path }}divider.md %}
+[Surface]: {% link {{ atom_path }}surface.md %}
+[Icon Button]: {% link {{ atom_path }}icon-button.md %}
+[Icon With Background]: {% link {{ atom_path }}icon-with-background.md %}
+[Text Link]: {% link {{ atom_path }}text-link.md %}
+[Chip]: {% link {{ atom_path }}chip.md %}
+[Checkbox]: {% link {{ atom_path }}checkbox.md %}
+[Drawer]: {% link {{ atom_path }}drawer.md %}
+[Dropdown]: {% link {{ atom_path }}dropdown.md %}
+[Radio Button]: {% link {{ atom_path }}radio-button.md %}
+[Stepper]: {% link {{ atom_path }}stepper.md %}
+[Text Field]: {% link {{ atom_path }}text-field.md %}
+[Toggle]: {% link {{ atom_path }}toggle.md %}
+[Image]: {% link {{ atom_path }}image.md %}
+[Lottie]: {% link {{ atom_path }}lottie.md %}
+[Modal]: {% link {{ atom_path }}modal.md %}
+[Avatar]: {% link {{ atom_path }}avatar.md %}
+[Tile Button]: {% link {{ atom_path }}tile-button.md %}
+[Loading Spinner]: {% link {{ atom_path }}loading-spinner.md %}
+[Icon]: {% link {{ atom_path }}icon.md %}
