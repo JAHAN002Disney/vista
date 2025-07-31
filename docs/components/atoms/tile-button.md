@@ -1,5 +1,5 @@
 ---
-title: Tile Button
+title: 💙 Tile Button
 parent: Atoms
 has_toc: false
 ---

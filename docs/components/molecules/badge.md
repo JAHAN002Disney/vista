@@ -1,5 +1,5 @@
 ---
-title: Badge
+title: 💚 Badge
 parent: Molecules
 has_toc: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: Chip
+title: 💙 Chip
 parent: Atoms
 has_toc: false
 ---

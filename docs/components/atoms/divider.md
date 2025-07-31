@@ -1,5 +1,5 @@
 ---
-title: Divider
+title: 💙 Divider
 parent: Atoms
 has_toc: false
 ---

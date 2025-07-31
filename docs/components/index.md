@@ -3,68 +3,70 @@ title: Components
 has_toc: false
 ---
 
-# Component Status
+## Component Status
 
-## Technology Overview
+### Technology Overview
 
 | Technology | Platform(s) |
-|:-----------|:------------|
-| <img src="https://avatars.githubusercontent.com/u/14101776?s=200&v=4" alt="Flutter" width="24" style="vertical-align:middle;"/> **Flutter** | iOS, Android   |
-| <img src="https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png" alt="SwiftUI" width="24" style="vertical-align:middle;"/> **SwiftUI** | iOS            |
-| <img src="https://logo.svgcdn.com/d/jetpackcompose-original-8x.png" alt="Jetpack Compose" width="24" style="vertical-align:middle;"/> **Jetpack Compose** | Android        |
-| <img src="https://plugins.jetbrains.com/files/15596/564707/icon/default.png" alt="Stencil" width="24" style="vertical-align:middle;"/> **StencilJS** | Web            |
+|:-------------------|:----------------|
+| **Flutter**        | iOS, Android    |
+| **SwiftUI**        | iOS             |
+| **Jetpack Compose**| Android         |
+| **StencilJS**      | Web             |
 
-## Atoms
+Key:
 
-| Atom        | Design | Flutter | iOS  | Android | Web |
-|:-----------------|:------:|:-------:|:----:|:-------:|:---:|
-| [Avatar]         |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
-| [Button]         |   ✅   |   ✅    |  🔜  |   🔜    |  ➖  |
-| [Checkbox]       |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
-| [Chip]           |   ✅   |   ✅    |  ➖  |   ➖    |  ➖  |
-| [Divider]        |   ✅   |   ✅    |  🔜  |   🔜    |  ➖  |
-| [Drawer]         |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
-| [Dropdown]       |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
-| [Icon]           |   ✅   |   ✅    |  🔜  |   🔜    |  ➖  |
-| [Icon Button]    |   ✅   |   ✅    |  🔜  |   🔜    |  ➖  |
-| [Icon With Background]       |   ✅   |   ✅    |  🔜  |   🔜    |  ➖  |
-| [Image]          |   ✅   |   ✅    |  🔜  |   🔜    |  ➖  |
-| [Loading Spinner]  |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
-| [Lottie]         |   ✅   |   ✅    |  🔜  |   🔜    |  ➖  |
-| [Modal]            |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
-| [Radio Button]   |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
-| [Stepper]        |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
-| [Surface]        |   ✅   |   ✅    |  🔜  |   🔜    |  ➖  |
-| [Text]           |   ✅   |   ✅    |  🔜  |   🔜    |  ➖  |
-| [Text Field]     |   ✅   |   ➖    |  🔜  |   🔜    |  ➖  |
-| [Text Link]      |   ✅   |   ✅    |  🔜  |   🔜    |  ➖  |
-| [Tile Button]    |   ✅   |   ✅    |  ➖  |   ➖    |  ➖  |
-| [Toggle]           |   ✅   |   🔜    |  ➖  |   ➖    |  ➖  |
+| ✅ IPR Ready | 🟡 Dev Ready (beta) | 🚧 In Progress | 🔹 Coming Soon | ➖ Not available yet |
+
+| Atom                     | Design | Flutter | iOS  | Android | Web |
+|:------------------------ |:------:|:-------:|:----:|:-------:|:---:|
+| [Avatar]                 |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
+| [Button] v2              |   ✅   |  ✅ v1  |🔹 v2 / ✅ v1 | ✅ v2  |  🔹 v3 / ➖ v1  |
+| [Checkbox]               |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
+| [Chip]                   |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
+| [Divider]                |   ✅   |   🟡    |  🔹  |   🔹    |  ➖  |
+| [Drawer]                 |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
+| [Dropdown]               |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
+| [Icon]                   |   ✅   |   🟡    |  🔹  |   🔹    |  ➖  |
+| [Icon Button]            |   ✅   |   🟡    |  🔹  |   🔹    |  ➖  |
+| [Icon With Background]   |   ✅   |   🟡    |  🔹  |   🔹    |  ➖  |
+| [Image]                  |   ✅   |   🟡    |  🔹  |   🔹    |  ➖  |
+| [Loading Spinner]        |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
+| [Lottie]                 |   ✅   |   🟡    |  🔹  |   🔹    |  ➖  |
+| [Modal]                  |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
+| [Radio Button]           |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
+| [Stepper]                |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
+| [Surface]                |   ✅   |   🟡    |  🔹  |   🔹    |  ➖  |
+| [Text]                   |   ✅   |   🟡    |  🔹  |   🔹    |  ➖  |
+| [Text Field]             |   ✅   |   ➖    |  🔹  |   🔹    |  ➖  |
+| [Text Link]              |   ✅   |   🟡    |  🔹  |   🔹    |  ➖  |
+| [Tile Button]            |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
+| [Toggle]                 |   ✅   |   🔹    |  ➖  |   ➖    |  ➖  |
 
 | Molecule                   | Design | Flutter | iOS  | Android | Web |
-|:---------------------------|:------:|:-------:|:----:|:-------:|:---:|
-| Avatar Group               |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
-| Avatar with Label          |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
-| Badge                      |   ✅   |   ✅    |  ➖  |   ➖    |  ➖  |
-| Button Bar                 |   ✅   |   🚧    |  ➖  |   ➖    |  ➖  |
-| Checkbox with Label        |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
-| Chip Group                 |   ✅   |   🔜    |  ➖  |   ➖    |  ➖  |
-| Inline Message             |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
-| Loading Spinner with Label |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
-| Page Footer                |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
-| Page Header                |   ✅   |   🚧    |  ➖  |   ➖    |  ➖  |
-| Page-Wide Message          |   ✅   |   ✅    |  ➖  |   ➖    |  ➖  |
-| Radio Button with Label    |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
-| Toast                      |   ✅   |   ✅    |  ➖  |   ➖    |  ➖  |
-| Toggle with Label          |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
+|:----------------------------|:------:|:-------:|:----:|:-------:|:---:|
+| Avatar Group                |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
+| Avatar with Label           |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
+| Badge                       |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
+| Button Bar                  |   ✅   |   🚧    |  ➖  |   ➖    |  ➖  |
+| Checkbox with Label         |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
+| Chip Group                  |   ✅   |   🔹    |  ➖  |   ➖    |  ➖  |
+| Inline Message              |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
+| Loading Spinner with Label  |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
+| Page Footer                 |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
+| Page Header                 |   ✅   |   🚧    |  ➖  |   ➖    |  ➖  |
+| Page-Wide Message           |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
+| Radio Button with Label     |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
+| Toast                       |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
+| Toggle with Label           |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
 
 | Organism                   | Design | Flutter | iOS  | Android | Web |
 |:---------------------------|:------:|:-------:|:----:|:-------:|:---:|
-| Card Footer                |   🚧   |   🔜    |  ➖  |   ➖    |  ➖  |
-| Large Card                 |   🚧   |   🔜    |  ➖  |   ➖    |  ➖  |
-| Medium Card                |   🚧   |   🔜    |  ➖  |   ➖    |  ➖  |
-| Micro Card                 |   🚧   |   🔜    |  ➖  |   ➖    |  ➖  |
-| Small Card                 |   🚧   |   🔜    |  ➖  |   ➖    |  ➖  |
+| Card Footer                |   🚧   |   🔹    |  ➖  |   ➖    |  ➖  |
+| Large Card                 |   🚧   |   🔹    |  ➖  |   ➖    |  ➖  |
+| Medium Card                |   🚧   |   🔹    |  ➖  |   ➖    |  ➖  |
+| Micro Card                 |   🚧   |   🔹    |  ➖  |   ➖    |  ➖  |
+| Small Card                 |   🚧   |   🔹    |  ➖  |   ➖    |  ➖  |
 
 {% assign atom_path = 'docs/components/atoms/' %}
 [Button]: {% link {{ atom_path }}button.md %}

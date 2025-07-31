@@ -1,5 +1,5 @@
 ---
-title: Icon
+title: 💙 Icon
 parent: Atoms
 has_toc: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: Toggle
+title: 💙 Toggle
 parent: Atoms
 has_toc: false
 ---

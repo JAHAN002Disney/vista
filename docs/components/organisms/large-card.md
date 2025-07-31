@@ -1,5 +1,5 @@
 ---
-title: Large Card
+title: 💜 Large Card
 parent: Organisms
 has_toc: false
 ---

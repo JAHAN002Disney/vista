@@ -3,6 +3,6 @@ title: Contributing Designers
 parent: Contribute
 ---
 
-# How to Contribute
+## How to Contribute
 
-# Component Requests
+## Component Requests

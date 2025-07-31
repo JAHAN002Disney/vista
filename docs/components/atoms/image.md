@@ -1,5 +1,5 @@
 ---
-title: Image
+title: 💙 Image
 parent: Atoms
 has_toc: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: Medium Card
+title: 💜 Medium Card
 parent: Organisms
 has_toc: false
 ---

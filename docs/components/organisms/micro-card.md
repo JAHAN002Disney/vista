@@ -1,5 +1,5 @@
 ---
-title: Micro Card
+title: 💜 Micro Card
 parent: Organisms
 has_toc: false
 ---

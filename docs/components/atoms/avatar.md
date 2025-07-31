@@ -1,5 +1,5 @@
 ---
-title: Avatar
+title: 💙 Avatar
 parent: Atoms
 has_toc: false
 ---

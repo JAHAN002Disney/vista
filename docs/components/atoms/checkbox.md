@@ -1,5 +1,5 @@
 ---
-title: Checkbox
+title: 💙 Checkbox
 parent: Atoms
 has_toc: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: Page-Wide Message
+title: 💚 Page-Wide Message
 parent: Molecules
 has_toc: false
 ---

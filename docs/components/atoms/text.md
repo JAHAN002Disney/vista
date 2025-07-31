@@ -1,5 +1,5 @@
 ---
-title: Text
+title: 💙 Text
 parent: Atoms
 has_toc: false
 ---

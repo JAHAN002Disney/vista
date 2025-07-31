@@ -1,5 +1,5 @@
 ---
-title: Stepper
+title: 💙 Stepper
 parent: Atoms
 has_toc: false
 ---

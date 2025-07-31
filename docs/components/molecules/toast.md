@@ -1,5 +1,5 @@
 ---
-title: Toast
+title: 💚 Toast
 parent: Molecules
 has_toc: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: Lottie
+title: 💙 Lottie
 parent: Atoms
 has_toc: false
 ---

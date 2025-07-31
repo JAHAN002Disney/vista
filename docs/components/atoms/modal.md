@@ -1,5 +1,5 @@
 ---
-title: Modal
+title: 💙 Modal
 parent: Atoms
 has_toc: false
 ---

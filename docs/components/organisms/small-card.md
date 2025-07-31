@@ -1,5 +1,5 @@
 ---
-title: Small Card
+title: 💜 Small Card
 parent: Organisms
 has_toc: false
 ---
