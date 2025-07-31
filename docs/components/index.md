@@ -16,12 +16,12 @@ has_toc: false
 
 Key:
 
-| ✅ IPR Ready | 🟡 Dev Ready (beta) | 🚧 In Progress | 🔹 Coming Soon | ➖ Not available yet |
+| ✅ IPR Ready | 🟡 Dev Ready | 🚧 In Progress | 🔹 Coming Soon | ➖ Not available yet |
 
 | Atom                     | Design | Flutter | iOS  | Android | Web |
 |:------------------------ |:------:|:-------:|:----:|:-------:|:---:|
 | [Avatar]                 |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
-| [Button] v2              |   ✅   |  ✅ v1  |🔹 v2 / ✅ v1 | ✅ v2  |  🔹 v3 / ➖ v1  |
+| [Button] v2              |   ✅   |  ✅ v1  |🔹 v2 / ✅ v1 | 🟡 v2  |  🔹 v3 / ➖ v1  |
 | [Checkbox]               |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
 | [Chip]                   |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
 | [Divider]                |   ✅   |   🟡    |  🔹  |   🔹    |  ➖  |
