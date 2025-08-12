@@ -8,13 +8,15 @@ has_toc: false
 Atom
 {: .label .label-blue }
 
-This is the description.
+Key:
+
+| ✅ Available | 🟡 In Dev | 🔹 Coming Soon | ➖ Not planned |
 
 | Version                   | Design | Flutter | iOS  | Android | Web |
 |:--------------------------|:------:|:-------:|:----:|:-------:|:---:|
-| v3                        |   ☑️   |   ➖    |  ➖  |   ➖    |  🔹  |
-| v2                        |   ✅   |   ➖    |  🔹  |   🟡    |  ➖  |
-| v1                        |   ✅   |   ✅    |  ✅  |   ➖    |  ➖  |
+| v3                        |   🔹   |   ➖    |  ➖  |   ➖    |  ➖  |
+| v2                        |   ✅   |   ✅    |  🔹  |   🔹    |  ➖  |
+| v1                        |   ✅   |   ✅    |  ➖  |   ➖    |  ➖  |
 
 ---
 <details markdown="block">

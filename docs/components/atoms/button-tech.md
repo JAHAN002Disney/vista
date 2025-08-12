@@ -8,7 +8,7 @@ has_toc: false
 
 | Reference   | Flutter   | iOS | Android | Web |
 |:------------|:----------|:----|:--------|:----|
-| Class       | [Flutter] |     |         |     |
+| Class       |           |     |         |     |
 | Jira Board  |           |     |         |     |
 
 <details markdown="block">
@@ -38,5 +38,3 @@ This is content related to compose
 This is content related to web
 
 </details>
-
-[Flutter]: https://github.com/dpep-mobile-technology/txp-thegrid-monorepo/blob/main/packages/layer1_chassis/chassis_uiwidgets/lib/src/vista/widgets/atoms/vista_button.dart

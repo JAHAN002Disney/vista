@@ -16,12 +16,12 @@ has_toc: false
 
 Key:
 
-| ✅ IPR Ready | 🟡 Dev Ready | 🚧 In Progress | 🔹 Coming Soon | ➖ Not available yet |
+| ✅ Available | 🟡 In Dev | 🔹 Coming Soon | ➖ Not planned |
 
 | Atom                     | Design | Flutter | iOS  | Android | Web |
 |:------------------------ |:------:|:-------:|:----:|:-------:|:---:|
 | [Avatar]                 |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
-| [Button] v2              |   ✅   |  ✅ v1  |🔹 v2 / ✅ v1 | 🟡 v2  |  🔹 v3 / ➖ v1  |
+| [Button]                 |   ✅   |   🟡    |  🔹  |   🔹    |  ➖  |
 | [Checkbox]               |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
 | [Chip]                   |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
 | [Divider]                |   ✅   |   🟡    |  🔹  |   🔹    |  ➖  |
@@ -41,20 +41,20 @@ Key:
 | [Text Field]             |   ✅   |   ➖    |  🔹  |   🔹    |  ➖  |
 | [Text Link]              |   ✅   |   🟡    |  🔹  |   🔹    |  ➖  |
 | [Tile Button]            |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
-| [Toggle]                 |   ✅   |   🔹    |  ➖  |   ➖    |  ➖  |
+| [Toggle]                 |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
 
 | Molecule                   | Design | Flutter | iOS  | Android | Web |
 |:----------------------------|:------:|:-------:|:----:|:-------:|:---:|
 | Avatar Group                |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
 | Avatar with Label           |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
 | Badge                       |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
-| Button Bar                  |   ✅   |   🚧    |  ➖  |   ➖    |  ➖  |
+| Button Bar                  |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
 | Checkbox with Label         |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
-| Chip Group                  |   ✅   |   🔹    |  ➖  |   ➖    |  ➖  |
+| Chip Group                  |   ✅   |   ➖    |  ➖  |   ➖    |  ➖  |
 | Inline Message              |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
 | Loading Spinner with Label  |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
 | Page Footer                 |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
-| Page Header                 |   ✅   |   🚧    |  ➖  |   ➖    |  ➖  |
+| Page Header                 |   ✅   |   🔹    |  ➖  |   ➖    |  ➖  |
 | Page-Wide Message           |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
 | Radio Button with Label     |   ➖   |   ➖    |  ➖  |   ➖    |  ➖  |
 | Toast                       |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
@@ -62,11 +62,11 @@ Key:
 
 | Organism                   | Design | Flutter | iOS  | Android | Web |
 |:---------------------------|:------:|:-------:|:----:|:-------:|:---:|
-| Card Footer                |   🚧   |   🔹    |  ➖  |   ➖    |  ➖  |
-| Large Card                 |   🚧   |   🔹    |  ➖  |   ➖    |  ➖  |
-| Medium Card                |   🚧   |   🔹    |  ➖  |   ➖    |  ➖  |
-| Micro Card                 |   🚧   |   🔹    |  ➖  |   ➖    |  ➖  |
-| Small Card                 |   🚧   |   🔹    |  ➖  |   ➖    |  ➖  |
+| Card Footer                |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
+| Large Card                 |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
+| Medium Card                |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
+| Micro Card                 |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
+| Small Card                 |   ✅   |   🟡    |  ➖  |   ➖    |  ➖  |
 
 {% assign atom_path = 'docs/components/atoms/' %}
 [Button]: {% link {{ atom_path }}button.md %}
